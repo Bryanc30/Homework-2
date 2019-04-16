@@ -1,0 +1,30 @@
+  918  pwd
+  919  ls
+  920  touch TestFile
+  921  mv TestFile TestFile2
+  922  rm TestFile2
+  923  mkdir TestDirectory
+  924  touch TestDirectory/Test.txt
+  925  rmdir TestDirectory/
+  926  rm TestDirectory/Test.txt 
+  927  rmdir TestDirectory/
+  928  echo "My first line." > test.txt
+  929  cat test.txt
+  930  echo "My second line" >> test.txt
+  931  ls / >> ListRootDir.txt
+  932  cat ListRootDir.txt 
+  933  mkdir TestWild
+  934  cd TestWild
+  935  touch File1txt
+  936  touch File2.txt
+  937  touch File3.txt
+  938  touch File4.txt
+  939  touch File1.csv
+  940  touch File2.csv
+  941  touch File3.csv
+  942  touch File4.csv
+  943  touch Anotherfile.csv
+  944  touch Anotherfile.txt
+  945  ls
+  946  ls | wc -l
+  947  history | tail -n 30 > For_Daniel_Wildcard.txt

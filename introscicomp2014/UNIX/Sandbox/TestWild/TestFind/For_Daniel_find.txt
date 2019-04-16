@@ -1,0 +1,30 @@
+  959  grep Orchidaceae spawannxs.txt
+  960  grep -c Orchidaceae spawannxs.txt
+  961  grep Falco spawannxs.txt
+  962  grep -i Falco spawannxs.txt
+  963  grep -i ara spawannxs.txt
+  964  grep -i -w ara spawannxs.txt
+  965  grep -i -w -A 1 ara spawannxs.txt
+  966  Use -n to show the line number of the match:
+  967  grep -i -w -v ara spawannxs.txt
+  968  history | tail -n 30 > For_Daniel_grep.txt
+  969  mkdir TestFind
+  970  cd TestFind/
+  971  mkdir -p Dir1/Dir11/Dir111
+  972  mkdir Dir2
+  973  mkdir Dir3
+  974  touch Dir1/File1.txt
+  975  touch Dir1/File1.csv
+  976  touch Dir1/File1.tex
+  977  touch Dir2/File2.txt
+  978  touch Dir2/File2.csv
+  979  touch Dir2/File2.tex
+  980  touch Dir1/Dir11/Dir111/File111.txt
+  981  touch Dir3/File3.txt
+  982  find . -name "File1.txt"  
+  983  find . -name "*.txt" 
+  984  find . -maxdepth 2 -name "*.txt"
+  985  find . -maxdepth 2 -not -name "*.txt"
+  986  find . -type d
+  987  find . -type f -exec ls -s {} \; | sort -n | head -10
+  988  history | tail -n 30 > For_Daniel_find.txt

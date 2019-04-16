@@ -1,0 +1,30 @@
+  939  touch File1.csv
+  940  touch File2.csv
+  941  touch File3.csv
+  942  touch File4.csv
+  943  touch Anotherfile.csv
+  944  touch Anotherfile.txt
+  945  ls
+  946  ls | wc -l
+  947  history | tail -n 30 > For_Daniel_Wildcard.txt
+  948  ls *
+  949  ls File*
+  950  ls *.txt
+  951  ls File?.txt
+  952  ls File[1-2].txt
+  953  ls File[!3].*
+  954  wget http://www.cep.unep.org/pubs/legislation/spawnannxs.txt
+  955  wget http://www.cep.unep.org/pubs/legislation/spawannxs.txt
+  956  ls *
+  957  head -n 50 spawnannxs.txt
+  958  head -n 50 spawannxs.txt 
+  959  grep Orchidaceae spawannxs.txt
+  960  grep -c Orchidaceae spawannxs.txt
+  961  grep Falco spawannxs.txt
+  962  grep -i Falco spawannxs.txt
+  963  grep -i ara spawannxs.txt
+  964  grep -i -w ara spawannxs.txt
+  965  grep -i -w -A 1 ara spawannxs.txt
+  966  Use -n to show the line number of the match:
+  967  grep -i -w -v ara spawannxs.txt
+  968  history | tail -n 30 > For_Daniel_grep.txt
