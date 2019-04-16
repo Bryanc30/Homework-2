@@ -1,0 +1,50 @@
+ 1081  ls
+ 1082  pwd
+ 1083  ls
+ 1084  uniq
+ 1085  man uniq
+ 1086  uniq evolution otoos10.txt 
+ 1087  uniq "evolution" otoos10.txt 
+ 1088  uniq 'evolution' otoos10.txt 
+ 1089  uniq otoos10.txt 'evolution'
+ 1090  man uniq
+ 1091  uniq -u otoos10.txt 
+ 1092  uniq -u otoos10.txt evolution 
+ 1093  printf uniq -u otoos10.txt evolution
+ 1094  man head
+ 1095  man grep
+ 1096  pwd
+ 1097  ls
+ 1098  darwin.txt | grep -o "evolution"
+ 1099  grep darwin.txt -o "evolution"
+ 1100  grep -o evolution darwin.txt 
+ 1101  grep -o -i evolution darwin.txt 
+ 1102  grep -o -i natural selection darwin.txt 
+ 1103  grep -o -i -n natural selection darwin.txt 
+ 1104  man grep
+ 1105  man count
+ 1106  man wc
+ 1107  wc grep -o -i natural selection darwin.txt 
+ 1108  man wc
+ 1109  man grep
+ 1110  wc -i evolution darwin.txt 
+ 1111  man wc
+ 1112  wc evolution darwin.txt 
+ 1113  grep -o -i -n natural selection darwin.txt > evolution.txt
+ 1114  touch evolutioncount.txt
+ 1115  grep -o -i -n natural selection darwin.txt > evolution.txt
+ 1116  grep -o -i -n natural selection darwin.txt 
+ 1117  pwd
+ 1118  ls
+ 1119  touch OccurrencesFile.txt
+ 1120  nano OccurrencesFile.txt 
+ 1121  head OccurrencesFile.txt 
+ 1122  nano OccurrencesFile.txt 
+ 1123  pwd
+ 1124  ls
+ 1125  cd Temperatures/
+ 1126  ls
+ 1127  head 1800.csv 
+ 1128  pwd
+ 1129  ls
+ 1130  history | tail -n 50 > For_Daniel_realData.txt
